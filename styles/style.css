@@ -32,17 +32,23 @@ h1 {
 
 .navbar ul li {
 	float: left;
-	margin: 0.5em;
 	padding: 0.5em;
 }
 
 .navbar ul li a {
-	padding: 24px;
+	padding: 0.5em;
 	display: block;
-	transition: 0.3s
+	transition: 0.3s;
+	text-decoration: none;
 }
 
-.navbar ul a:hover {
-  background-color: #000000;
-  opacity: 20%;
+.navbar ul li:hover {
+	background-color: #000000;
+	opacity: 20%;
+}
+
+
+.navbar ul a:visited {
+	text-decoration: none;
+	color: inherit;
 }
