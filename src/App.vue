@@ -1,15 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="header">
+        <tabs-wrapper>
+            <my-tab title="lucas carter" id="main_title">MY HOME PAGE</my-tab>
+            <my-tab title="cv">MY RESUME</my-tab>
+            <my-tab title="code">MY PROJECTS</my-tab>
+            <my-tab title="photos">FILM PHOTOS</my-tab>
+            <my-tab title="travel">MY TRAVEL CONTENT</my-tab>
+        </tabs-wrapper>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MyTab from './components/MyTab.vue';
+import TabsWrapper from './components/TabsWrapper.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MyTab,
+    TabsWrapper,
   }
 }
 </script>
