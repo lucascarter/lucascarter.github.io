@@ -1,24 +1,26 @@
 <template>
     <div class="header">
-        <tabs-wrapper>
-            <my-tab title="lucas carter" id="main_title">MY HOME PAGE</my-tab>
-            <my-tab title="cv">MY RESUME</my-tab>
-            <my-tab title="code">MY PROJECTS</my-tab>
-            <my-tab title="photos">FILM PHOTOS</my-tab>
-            <my-tab title="travel">MY TRAVEL CONTENT</my-tab>
-        </tabs-wrapper>
+      <tabs-wrapper>
+        <my-tab title="lucas carter" id="main_title"><home-page></home-page></my-tab>
+        <my-tab title="cv">MY RESUME</my-tab>
+        <my-tab title="code">MY PROJECTS</my-tab>
+        <my-tab title="photos">FILM PHOTOS</my-tab>
+        <my-tab title="travel">MY TRAVEL CONTENT</my-tab>
+      </tabs-wrapper>
     </div>
 </template>
 
 <script>
 import MyTab from './components/MyTab.vue';
 import TabsWrapper from './components/TabsWrapper.vue';
+import HomePage from './components/HomePage.vue';
 
 export default {
   name: 'App',
   components: {
     MyTab,
     TabsWrapper,
+    HomePage
   }
 }
 </script>
