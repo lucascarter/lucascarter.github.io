@@ -20,5 +20,9 @@ export default {
 </script>
 
 <style>
+.tab-content {
+    margin: 50px;
+}
+
 
 </style>
