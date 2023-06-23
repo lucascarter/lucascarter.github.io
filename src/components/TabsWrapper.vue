@@ -85,13 +85,11 @@ export default {
 li {
     text-align: center;
     padding: 10px 20px;
-    margin-right: 10px;
+    margin-right: 0px;
     cursor: pointer;
     display: inline;
 }
 
-slot {
-    margin: 200px;
-}
+
 
 </style>

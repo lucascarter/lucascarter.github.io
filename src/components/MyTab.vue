@@ -1,6 +1,10 @@
 <template>
-    <div class="tab-content" v-show="title == selectedTitle">
-        <slot />
+    <div class="alignment-wrapper">
+        <transition name="fade">
+            <div class="tab-content" :key="title" v-show="title == selectedTitle">
+                <slot />
+            </div>
+        </transition>
     </div>
 </template>
 
@@ -20,10 +24,33 @@ export default {
 </script>
 
 <style>
+
 .tab-content {
-    margin: 50px;
-    transition: 0.4s all ease-out;
+    padding: 200px;
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+
+.fade-leave-active {
+  transition: opacity 0.4s;
+}
+.fade-enter-active{
+    transition: opacity 2.5s;
+    transition-delay: 0.4s;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+.transition {
+    position: relative;
+}
+
 
 
 </style>
