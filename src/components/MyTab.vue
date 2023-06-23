@@ -22,6 +22,7 @@ export default {
 <style>
 .tab-content {
     margin: 50px;
+    transition: 0.4s all ease-out;
 }
 
 
