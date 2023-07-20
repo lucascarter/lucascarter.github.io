@@ -32,7 +32,7 @@ export default {
 }
 .left-side {
     width: 75%;
-    padding: 2em;
+    padding: 1em;
 }
 .right-side {
     flex-grow: 1;
