@@ -58,10 +58,11 @@ export default {
 }
 .main_tab {
     display: block;
+    margin-top: 1em;
     margin: 2em;
 }
 .main_tab li {
-    font-size: 50px;
+    font-size: 5em;
     font-weight: 200;
     letter-spacing: 0.2em;
     padding: 0%;
@@ -69,15 +70,15 @@ export default {
     border-bottom: 1px solid transparent;
     transition: 0.4s all ease-out;
 }
-.tabs_header {
-    padding-right: 10px;
-}
+
 .tabs_header li {
-    font-size: 20px;
+    font-size: 2em;
     font-weight: 300;
     padding: 0%;
     padding-bottom: 5px;
     margin: 35px;
+    margin-right: 1.2em;
+    margin-left: 1.2em;
     border-bottom: 1px solid transparent;
     transition: 0.4s all ease-out;
 }
