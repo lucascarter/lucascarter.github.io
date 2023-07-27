@@ -27,7 +27,7 @@
       <h3>Student Technician</h3>
       <ul class="bullets">
         <li>Organized and set up audio and visual systems for on campus events</li>
-        <li>Operated sound systems for different occasions on campus including high profile events such as men’s basketball games for the duration of the season</li>
+        <li>Operated sound systems for different occasions including high profile events such as men’s basketball games for the duration of the season</li>
         <li>Trained new technicians through shadowing and hands-on experience</li>
       </ul>
       <h2>Juni Learning</h2>
@@ -69,7 +69,7 @@ export default {
 .resume {
   text-align: left;
   align-content: center;
-  width: 50%;
+  width: 60%;
   margin: auto;
   font-size: large;
 }

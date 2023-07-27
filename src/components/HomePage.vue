@@ -33,6 +33,7 @@ export default {
 .left-side {
     width: 75%;
     padding: 1em;
+    padding-top: 0;
 }
 .right-side {
     flex-grow: 1;
@@ -41,7 +42,8 @@ export default {
     font-size: 2em;
     float: right;
     text-align: left;
-
+    font-weight: 300;
+    text-shadow: 2px 4px 7px rgba(115, 118, 124, 0.6);
 }
 .pic {
     border-radius: 50%;
