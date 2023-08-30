@@ -33,6 +33,7 @@ export default {
 .left-side {
     width: 75%;
     padding: 1em;
+    padding-top: 0;
 }
 .right-side {
     flex-grow: 1;
@@ -41,7 +42,8 @@ export default {
     font-size: 2em;
     float: right;
     text-align: left;
-
+    font-weight: 300;
+    text-shadow: 2px 4px 7px rgba(115, 118, 124, 0.6);
 }
 .pic {
     border-radius: 50%;
@@ -53,27 +55,7 @@ export default {
 p {
     margin: 0%;
 }
-/* Media query for mobile devices */
-@media (max-width: 768px) {
-    .pic-and-bio {
-        flex-direction: column;
-        align-items: center;
-        padding: 1em;
-        margin: 1em;
-    }
-    .left-side, .right-side {
-        width: 100%;
-    }
-    .bio {
-        font-size: 1.5em; /* Adjust font size */
-        text-align: center;
-        float: none;
-    }
-    #my-photo {
-        height: 15em;
-        width: 15em;
-    }
-}
+
 
 
 </style>
