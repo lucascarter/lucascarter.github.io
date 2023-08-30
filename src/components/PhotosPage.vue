@@ -1,6 +1,6 @@
 <template>
-  <div class="photos-wrapper">
-    <p class="construction">This page is under construction!</p>
+  <div>
+    <p>This page is under construction!</p>
   </div>
 
 </template>
@@ -13,12 +13,7 @@ export default {
 
 <style>
 
-.photos-wrapper {
-  text-align: center;
-  margin: auto;
-}
-
-p .construction {
+p {
   text-align: center;
 }
 
